@@ -80,7 +80,7 @@ netease_comment: ture
 # Sidebar settings      侧边栏  
 sidebar: ture                                     # whether or not using Sidebar.
 sidebar-about-description: "海海 <br> HaiHai."    #头像下面那一栏<br>换行
-sidebar-avatar: 001.jpg                           #  头像所用链接    use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: img/me.jpg                           #  头像所用链接    use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 # Gitalk   暂未实装
