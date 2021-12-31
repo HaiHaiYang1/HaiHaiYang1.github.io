@@ -1,17 +1,18 @@
+#首页
 # Site settings
-title: HaiHai の Blog
-SEOTitle: HBLOG
-header-img: img/home-bg.jpg
+title: HaiHai の Blog             #首页大标题
+SEOTitle: HBLOG                   #网页栏标题
+header-img: img/home-bg.jpg       #首页图像
 email: the.stone.lalal@gmail.com
-description: "描述"  #none
-keyword: "keywords"   #none
+description: "描述"               #useless
+keyword: "keywords"               #useless
 url: "https://haihaiyang1.github.io/"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
-# Publish posts or collection documents with a future date.
+# Publish posts or collection documents with a future date. 允许发布未来的文章
 future: true
 
-# SNS settings
+# SNS settings   社交账号
 RSS: false
 weibo_username:    u/1896567072
 #zhihu_username:     huxpro
@@ -26,7 +27,7 @@ github_username:    HaiHaiYang1
 # from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
 #highlighter: rouge
 permalink: pretty
-paginate: 10
+paginate: 10                # 一页你准备放几篇文章
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md","README.zh.md"]
 anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
 # If you have timezone issue (e.g. #68) in China, uncomment to use this:
@@ -76,21 +77,21 @@ netease_comment: ture
 
 
 
-# Sidebar settings
-sidebar: ture                           # whether or not using Sidebar.
-sidebar-about-description: "海海 <br> HaiHai."
-sidebar-avatar: 001.jpg # use absolute URL, seeing it's used in both `/` and `/about/`
+# Sidebar settings      侧边栏  
+sidebar: ture                                     # whether or not using Sidebar.
+sidebar-about-description: "海海 <br> HaiHai."    #头像下面那一栏<br>换行
+sidebar-avatar: 001.jpg                           #  头像所用链接    use absolute URL, seeing it's used in both `/` and `/about/`
 
 
-# Gitalk
+# Gitalk   暂未实装
 gitalk:
   enable: false   #是否开启Gitalk评论
-  clientID:                             #生成的clientID
-  clientSecret:     #生成的clientSecret
+  clientID:                    #生成的clientID
+  clientSecret:                #生成的clientSecret
   repo: haihaiyang1.github.io    #仓库名称
-  owner: haihaiyang1    #github用户名
+  owner: haihaiyang1           #github用户名
   admin: 
-  distractionFreeMode: true #是否启用类似FB的阴影遮罩
+  distractionFreeMode: true   #是否启用类似FB的阴影遮罩
 
 
 # Featured Tags
