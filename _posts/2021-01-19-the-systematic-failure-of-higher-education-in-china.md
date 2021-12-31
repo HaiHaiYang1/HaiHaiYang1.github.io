@@ -5,6 +5,7 @@ subtitle:   "2021年的最后一天，在好哥们(hdbdjdbm)的帮助下终于�
 date:       2021-12-31 12:00:00
 author:     "Hai"
 catalog: ture
+header-img: img/about-bg-walle.jpg
 header-style: text
 tags:
   - 生活
