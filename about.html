@@ -3,61 +3,43 @@ layout: page
 title: "About"
 description: "[ Here's No Gravty ]"
 header-img: "img/about-bg.jpg"
-
 ---
- <!--multilingual为多语言
-{% include multilingual-sel.html %}
- --> 
+
+<!--multilingual为多语言
+    {  123123123% include multili123123123ngual-sel.html %123123123}
+--> 
+
+<!-- Language Selector -->
+<!-- <select class="sel-lang" onchange= "onLanChange(this.options[this.options.selectedIndex].value)">
+    <option value="0" selected> 中文 Chinese </option>
+    <option value="1"> 英文 English </option>
+</select> -->
+
 <!-- Chinese Version -->
 <div class="zh post-container">
-
-    <blockquote><p>正在踏入下一条缺德河流。</p>
-
-    <p>想到这里是about板块，飞速打开百度网盘找到不同版本的“致20xx年的自己”，以便更好地了解自己到底是谁。</p>
-	<p>自我意识觉醒时期很容易说出：“主，不在乎！”。所以我每天都在尽量把“我在乎”这三个字刻在脑门上。</p>
-    <p>常言道，失败是成功之母。</p>
-    <p>小冯道，失败不是成功之母，总结才是。</p>
-    <p>但倒也不是说我要成功的意思。</p>
-    <p>每次遇到疑惑上网搜到解答的时候，真的很想顺着网线找到网友说声谢谢，但我知道网友并不在乎。(这里有前呼后应的意思)</p>
-    <p>总结来说，这是一个普通人的生命探索blog，定期更新生命新(缺德的)发现。如果这些缺德的发现能帮助到你的话那就更好了^^</p>
-    <p>最后，希望自己在踏入下一条缺德河流的时候能拥有生活。</p>
+    <blockquote>
+        <p>Never be the same</p>
     </blockquote>
+    
+    {% capture about_zh %}{% include about.md %}{% endcapture %}
+    {{ about_zh | markdownify }}
 </div>
 <!--<blockquote> 与 </blockquote> 之间的所有文本都会从常规文本中分离出来，经常会在左、右两边进行缩进（增加外边距），而且有时会使用斜体。也就是说，块引用拥有它们自己的空间-->
-
-<!-- English Version -->
-
 <!--
-    新增
-        <ul>
-        <li><a href="https://github.com">GitHub</a></li>
-        <li><a href="http://jekyll.com.cn/">jekyll</a></li>
-        <li><a href="https://analytics.google.com/analytics">Google Analytics</a></li>
-    </ul>
+<h5>Talks</h5>
+
+<ul>
+<li><a href="https://github.com">GitHub</a></li>
+<li><a href="http://jekyll.com.cn/">jekyll</a></li>
+<li><a href="https://pages.github.com/">GitHub Pages</a></li>
+<li><a href="https://qiubaiying.github.io">BY</a></li>
+</ul>
 -->
 
 <!-- English Version -->
-<!-- <div class="en post-container">
-    <blockquote><p>Yet another iOS Developer. <br>
-    Yet another Life-long Student.</p></blockquote>
-
-    <p>Hi, I am <strong>Baiying Qiu</strong>，you can call me <strong>BY</strong>. I am an iOS software engineer and currently working in Xiamen</p>
-
-    <p>This is my personal blog, through making Github Pages and Jekyll.My GitHub  👉 <a href="http://github.com/qiubaiying">Github·BY</a>.</p>
-    
-    <p>I am a sports enthusiast, I like fitness, running and boxing.</p>
-
-    <h5>Talks</h5>
-
-    <ul>
-    <li><a href="https://github.com">GitHub</a></li>
-    <li><a href="http://jekyll.com.cn/">jekyll</a></li>
-    <li><a href="https://pages.github.com/">GitHub Pages</a></li>
-    <li><a href="https://qiubaiying.github.io">BY</a></li>
-    </ul>
-</div> -->
 
 <!-- Handle Language Change -->
+
 <script type="text/javascript">
     // get nodes
     var $zh = document.querySelector(".zh");
