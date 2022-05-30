@@ -4,8 +4,9 @@ title:      "关于六月"
 subtitle:   "2022转瞬即逝，在喜悦的同时，我好像忘记了些什么"
 date:       2022-05-31
 author:     "Hai"
+header-style: text
 header-img: "img/night-desk.jpg"
-catalog: true
+catalog: ture
 tags:
   - 未来
 ---
